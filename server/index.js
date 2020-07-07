@@ -4,9 +4,8 @@ const cors = require("cors");
 const pool = require("./db");
 
 require("dotenv").config();
-console.log("************");
-console.log(process.env);
-console.log("************");
+// console.log(process.env);
+
 //middleware
 app.use(cors());
 app.use(express.json()); //req.body
